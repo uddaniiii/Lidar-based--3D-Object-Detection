@@ -10,3 +10,4 @@ pcd.points = o3d.utility.Vector3dVector(point_cloud[:, :3])  # 첫 세 열은 x,
 
 # 포인트 클라우드 시각화
 o3d.visualization.draw_geometries([pcd])
+

@@ -1,1 +1,8 @@
-test2
+1. data_split을 통한 데이터 분리 진행
+2. baseline/OpenPCDet안에 있는 requirement.txt 실행
+    - pip install -r baseline/OpenPCDet/requirement.txt
+3. baseline/OpenPCDet 디렉토리에 들어가서 python setup.py develop
+    - 현재 에러로 인해 멈춘 상태
+    참고
+        - https://daeun-computer-uneasy.tistory.com/87
+        - https://velog.io/@ltdfm/OpenPCDet-custom-dataset-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-1

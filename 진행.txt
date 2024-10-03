@@ -1,6 +1,8 @@
 1. data_split을 통한 데이터 분리 진행
 2. baseline/OpenPCDet안에 있는 requirement.txt 실행
     - pip install -r baseline/OpenPCDet/requirement.txt
+    - 그냥 해당 디렉토리로 이동해서 하는 것이 편함
+        - 아래 setup.py develop도 해야하기 때문, 밖에서 setup을 하면 내부 version 파일 안의 경로도 수정해줘야함
 3. baseline/OpenPCDet 디렉토리에 들어가서 python setup.py develop
     - 현재 에러로 인해 멈춘 상태
     참고
